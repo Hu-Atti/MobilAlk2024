@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/store_search_bar"
+        android:title="@string/search"
+        android:icon="@drawable/icon_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/openStore"
+        android:title="@string/search"
+        android:icon="@drawable/icon_new_store"
+        app:showAsAction="always" />
+</menu>

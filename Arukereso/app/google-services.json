@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "532291150295",
+    "project_id": "mobilalkfejlarukereso",
+    "storage_bucket": "mobilalkfejlarukereso.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532291150295:android:baaf8a0a71d675a066eb92",
+        "android_client_info": {
+          "package_name": "hu.mobilalkfejl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKnpAHLRePyASAO7JtyGcv8EK0NhmoSYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

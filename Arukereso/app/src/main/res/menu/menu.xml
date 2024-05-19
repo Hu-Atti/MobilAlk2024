@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search_bar"
+        android:title="@string/search"
+        android:icon="@drawable/icon_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/category"
+        android:title="@string/category"
+        android:icon="@drawable/icon_category"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sort"
+        android:title="Rendezés"
+        android:icon="@drawable/icon_sort"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/stores"
+        android:title="@string/stores"
+        android:icon="@drawable/icon_store"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/create_product"
+        android:title="Új termék felvétele"
+        android:icon="@drawable/icon_new_product"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/delete_profile"
+        android:title="Profil törlése"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+</menu>

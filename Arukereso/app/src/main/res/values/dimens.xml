@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bigText">40sp</dimen>
+    <dimen name="inputwidth">300sp</dimen>
+    <dimen name="buttonwidth">150sp</dimen>
+    <dimen name="spacing">15sp</dimen>
+</resources>

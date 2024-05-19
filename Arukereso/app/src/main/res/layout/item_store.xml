@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10sp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp">
+
+        <LinearLayout
+            android:id="@+id/store_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5sp"
+            >
+
+            <ImageView
+                android:id="@+id/store_logo"
+                android:scaleType="centerCrop"
+                android:layout_width="0dp"
+                android:layout_height="58dp"
+                android:src="@drawable/placeholder"
+                android:adjustViewBounds="true"
+                android:layout_weight="0.5"
+                />
+
+            <TextView
+                android:id="@+id/store_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="15dp"
+                android:text="Bolt neve"
+                android:textColor="?android:textColorSecondary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/store_details"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/store_info"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/store_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5sp"
+                android:text="Bolt címe"/>
+
+            <RatingBar
+                android:id="@+id/store_rating"
+                style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="8dp"
+                android:progressTint="#FFC107"
+                android:rating="3" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/shipping_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5sp"
+            android:layout_below="@id/store_details"
+            android:layout_centerHorizontal="true"
+            android:text="Szállítás ára" />
+
+        <LinearLayout
+            android:id="@+id/store_manage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shipping_cost"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/store_delete_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:backgroundTint="@color/red"
+                android:text="Törlés"
+                android:textColor="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:cornerRadius="20sp"
+                app:icon="@drawable/icon_delete"
+                app:iconTint="#FFFFFF"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

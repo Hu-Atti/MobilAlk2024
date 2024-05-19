@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Ajándékozás</item>
+        <item>Autó, motor</item>
+        <item>Baba, mama</item>
+        <item>Bútor, lakberendezés</item>
+        <item>Divat és ruházat</item>
+        <item>Építkezés, felújítás</item>
+        <item>Étel-Ital</item>
+        <item>Erotika</item>
+        <item>Film és zene</item>
+        <item>Háziállat</item>
+        <item>Háztartási gép</item>
+        <item>Hobbi</item>
+        <item>Irodatechnika</item>
+        <item>Játék</item>
+        <item>Műszaki cikk</item>
+        <item>Otthon és kert</item>
+        <item>Sport és Fitness</item>
+        <item>Számítógép</item>
+        <item>Szépségápolás és egészség</item>
+    </string-array>
+
+    <string-array name="roles_array">
+        <item>Vásárló</item>
+        <item>Eladó</item>
+    </string-array>
+</resources>

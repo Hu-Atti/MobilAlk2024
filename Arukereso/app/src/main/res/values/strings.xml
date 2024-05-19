@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Árúkereső</string>
+    <string name="register">Regisztráció</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="username">Felhasználónév</string>
+    <string name="email">Email</string>
+    <string name="phone">Telefonszám</string>
+    <string name="password">Jelszó</string>
+    <string name="confirmpassword">Jelszó megerősítése</string>
+    <string name="cancel">Mégse</string>
+    <string name="item_info_placeholder">Infó a termékről</string>
+    <string name="item_placeholder">Termék megnevezése</string>
+    <string name="search">Keresés</string>
+    <string name="category">Kategória</string>
+    <string name="stores">Boltok</string>
+    <string name="logout">Kijelentkezés</string>
+    <string name="profile">Profil</string>
+    <string name="welcometext">A folytatáshoz jelentkezz be, vagy regisztrálj!</string>
+</resources>
